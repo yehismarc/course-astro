@@ -1,0 +1,19 @@
+---
+import CustomTitle from "../components/CustomTitle.astro";
+import MainLayout from "../layouts/MainLayout.astro";
+
+const title = "About Page";
+const name = "About";
+---
+
+<MainLayout title={title} name={name}>
+
+    <CustomTitle title="This is my title" />
+	
+</MainLayout>
+
+<style>
+    h1 {
+        color: red;
+    }
+</style>
